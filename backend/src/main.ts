@@ -10,7 +10,7 @@ async function bootstrap() {
   app.useGlobalFilters(new ExceptionsLoggerFilter(httpAdapter));
   app.useGlobalPipes(new ValidationPipe());
   const config = new DocumentBuilder()
-    .setTitle('Blog APIs')
+    .setTitle('Web Search APIs')
     .setDescription('List API')
     .addTag('Auth').addTag('Users')
     .addBearerAuth()
